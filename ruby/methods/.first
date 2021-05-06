@@ -1,0 +1,23 @@
+# Rubyのfirstメソッド
+
+## firstメソッドとは
+firstメソッドは配列の要素を取り出すときにそお配列の中の最初の要素を取得するメソッド。
+配列の要素がない場合は`nil`を返す。
+
+## firstメソッドの書き方
+
+```ruby
+配列名.first
+配列名.first(引数)
+```
+
+引数がある場合は配列の中の最初の要素からその引数の数の要素を配列で返す。
+
+```ruby
+foods = ["sandwich", "tacos", "sushi", "nuts", "pasta"]
+puts foods.first
+puts foods.first.(2)
+```
+
+[![Image from Gyazo](https://i.gyazo.com/0735af075c787ddb46e944f11c1eb876.gif)](https://gyazo.com/0735af075c787ddb46e944f11c1eb876)
+
