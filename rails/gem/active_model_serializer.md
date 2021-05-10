@@ -90,6 +90,22 @@ end
 まだまだ理解が足りないので
 随時追加していきます。
 
+＊追記
+
+現在active_model_serializersは更新されていないようです。
+ご指摘ありがとうございます。
+
+active_model_selializersの[GitHub](https://github.com/rails-api/active_model_serializers/blob/master/README.md)に代わりになるGemが書いてありました。
+記載します。
+
+
+- [jsonapi-rb](http://jsonapi-rb.org/)は、高いパフォーマンスとモジュール化されたJSON:API専用の実装。
+JSON:API Suiteのようなプロジェクトが生まれ、活発なコミュニティが存在します。
+- [fast_jsonapi](https://github.com/fast-jsonapi/fast_jsonapi)は、Rubyオブジェクト用の超高速なJSON:APIシリアライザです。
+- [jsonapi-resources](https://github.com/cerebris/jsonapi-resources)は、JSON:API サーバーを実装するための、リソースに焦点を当てた人気のフレームワーク。
+- [blueprinter](https://github.com/procore/blueprinter)は、高速で宣言的な、API仕様にとらわれないシリアライザーで、コンポーザブルビューを使って重複を減らします。
+
+
 
 
 > 参考サイト
@@ -97,3 +113,5 @@ end
 [gem Active Model Serializers のドキュメントを翻訳しました](https://qiita.com/ikamirin/items/be809c845f6104aa6f48#attributes%E3%83%87%E3%83%95%E3%82%A9%E3%83%AB%E3%83%88)
 [Rails – ActiveModelSerializers gemでサクサクAPI開発](https://rooter.jp/programming/rails-activemodelserializers/#theme1)
 [Railsのactive_model_serializerについて学ぶ_100DaysOfCodeチャレンジ10日目(Day_10:#100DaysOfCode)](https://qiita.com/yuta-ushijima/items/5bb947cedd96c01d75ca)
+
+
